@@ -2,9 +2,9 @@
 
 ## Intern Details
 
-Intern ID :
-Full Name :
-No. of Weeks :
+Intern ID :CITS5120
+Full Name :VALLIPI JOSNA
+No. of Weeks :4 Weeks
 
 ## Project Name
 
