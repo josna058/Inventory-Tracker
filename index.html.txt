@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inventory Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Inventory Tracker</h1>
+
+    <input type="text" id="productName" placeholder="Product Name">
+
+    <input type="number" id="quantity" placeholder="Quantity">
+
+    <button onclick="addProduct()">
+        Add Product
+    </button>
+
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody id="productTable">
+
+        </tbody>
+
+    </table>
+
+    <h2>
+        Total Quantity :
+        <span id="totalQuantity">0</span>
+    </h2>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
